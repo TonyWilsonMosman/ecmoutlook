@@ -13,8 +13,8 @@ Outlook VBA for integrating Outlook with TechnologyOne ECM. It forwards email to
 The code moves emails to a working folder (zCi) under your personal email account, to accommodate for ECM not accepting emails from group email accounts.
 
 It then adds:
-a) The QAP# as a white (invisible) text and the end of the email body and
-b) The original internet headers as a text at the end of the email (also white fonts)
+- The QAP# as a white (invisible) text and the end of the email body and
+- The original internet headers as a text at the end of the email (also white fonts)
 
 The code forwards the formatted email to ECM and then moves it to the ending folder for QC, usually back to a group email folder for the specific user. After registering the record in ECM, those emails are expected to be deleted manually by the user.
 
