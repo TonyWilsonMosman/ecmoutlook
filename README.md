@@ -1,5 +1,4 @@
-#v2
-
+# ECMoutlook v2
 - Error handling - Stops all scripts and emails IT with error
 
 
@@ -9,17 +8,18 @@
 - New code (and icon) for entering your own QAP#. 
 
 
-# ecmoutlook
-Outlook VBA for integrating Outlook with ECM
-ECMOutlook is the vba code and the Customisation file is for an extra toolbar with all the macros. Using this toolbar will replace any existing custimisations you might already have.
+# ECMoutlook v1
+Outlook VBA for integrating Outlook with TechnologyOne ECM. It forwards email to ECM with QAP#
 
-The code moves emails from shared paths to your path, as ECM will only accept emails from your own path
+The code moves emails to a working folder (zCi) under your personal email account, to accommodate for ECM not accepting emails from group email accounts.
 
-it then adds the QAP and the original internet headers as a twxt at the end of the email (white font)
-It then emails itnto the ECM connecting email and moves it back at the shared folder but underbyour own path as a reminder that this is an email that needs to be registered. After registering it in ECM you should delete that email
+It then adds:
+a) The QAP# as a white (invisible) text and the end of the email body and
+b) The original internet headers as a text at the end of the email (also white fonts)
 
-The code uses a temporary placeholder folder under your account to work with the forwarding process. That folder will always be empty, but is needed for the email to originate from your account. A suggestion is to use zCi as a subfolder under your inbox
+The code forwards the formatted email to ECM and then moves it to the ending folder for QC, usually back to a group email folder for the specific user. After registering the record in ECM, those emails are expected to be deleted manually by the user.
 
-Every new set up will need to change those few variables at the top AND manually creating that zCi folder under each user
+This code expects the users to update the code with their own details (company emails etc.). The variables to be edited are clearly displayed at the start of the code.
 
-The code also assumes that the user has a shared account and a folder ubder that one for the last place those emails will stay. If not, adjust the end folder to the users send folder. Follow the style of coding as that line / Folder(folder).   
+The code is in one file: ECMOutlook v2.bas
+While the ribbon/toolbar customisation with all the buttons is also included with: Outlook Customizations (olkexplorer)v2.exportedUI
