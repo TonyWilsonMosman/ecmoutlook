@@ -5,6 +5,8 @@
 
 - New code (and icon) for entering your own QAP#. 
 
+***Note: There is an awesome alternative of an add-on by Tony Federer (https://github.com/tonyfederer), which needs no customisation per user and it possibly the best option for organisation-wide deployment. However, this code is good for teams that register a lot of records and would like to use QAP# for quick and direct registration, and where IT is around to assist with deployment at each user.
+
 # ECMoutlook v1
 Outlook VBA for integrating Outlook with TechnologyOne ECM. It forwards email to ECM with QAP#
 
