@@ -1,6 +1,17 @@
+#v2
+
+- Error handling - Stops all scripts and emails IT with error
+
+
+- Original email now gets copied at the end folder before the code does any other moves. This is a backup email, so nothing is lost  in servers outages. However, this creates TWO, duplicate emails at the end folder. IMO it is a good QC practice.
+
+
+- New code (and icon) for entering your own QAP#. 
+
+
 # ecmoutlook
 Outlook VBA for integrating Outlook with ECM
-ECMOutlook is the vba code and the customisation file is for an extra toolbar with all the macros. Using this toolbar will replace any existing custimisations you might already have.
+ECMOutlook is the vba code and the Customisation file is for an extra toolbar with all the macros. Using this toolbar will replace any existing custimisations you might already have.
 
 The code moves emails from shared paths to your path, as ECM will only accept emails from your own path
 
@@ -11,4 +22,4 @@ The code uses a temporary placeholder folder under your account to work with the
 
 Every new set up will need to change those few variables at the top AND manually creating that zCi folder under each user
 
-The code also assumes that the user has a shared account and a folder ubder that one for the last place those emails will stay. If not, adjust the end folder to the users send folder. Folkow the style of coding as that line       Folder(folder).   
+The code also assumes that the user has a shared account and a folder ubder that one for the last place those emails will stay. If not, adjust the end folder to the users send folder. Follow the style of coding as that line / Folder(folder).   
