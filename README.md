@@ -1,3 +1,6 @@
+(2.5 is a test variation of v2. It simplifies initial set up and needs testing before deployment. If not working, use v2)
+
+
 # ECMoutlook v2
 - Error handling - Stops all scripts and emails IT with error
 
