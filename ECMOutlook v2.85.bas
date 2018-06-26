@@ -83,8 +83,6 @@ Oups:
 End Sub
 
 
-
-
 Sub Default1()
 
     FirstMove
@@ -93,6 +91,8 @@ Sub Default1()
     ForwardDefault QAP
     
 End Sub
+                                        
+                                        
 Sub Address()
 
     FirstMove
@@ -101,6 +101,8 @@ Sub Address()
     ForwardDefault QAP
     
 End Sub
+                                        
+                                        
 Sub Fire()
 
     FirstMove
@@ -109,6 +111,8 @@ Sub Fire()
     ForwardDefault QAP
     
 End Sub
+                                        
+                                        
 Sub ResidentSub()
 
     FirstMove
@@ -117,6 +121,8 @@ Sub ResidentSub()
     ForwardDefault QAP
     
 End Sub
+                                        
+                                        
 Sub Job()
 
     FirstMove
@@ -125,6 +131,8 @@ Sub Job()
     ForwardDefault QAP
     
 End Sub
+                                        
+                                        
 Sub ParkingIllegal()
 
     FirstMove
@@ -134,6 +142,7 @@ Sub ParkingIllegal()
     
 End Sub
 
+                                        
 Sub CourtAttend()
 
     FirstMove
@@ -142,6 +151,8 @@ Sub CourtAttend()
     ForwardDefault QAP
     
 End Sub
+                                        
+                                        
 Sub InfringMoreInfo()
 
     FirstMove
@@ -151,6 +162,7 @@ Sub InfringMoreInfo()
     
 End Sub
 
+                                        
 Sub UserInput()
 On Error GoTo Oups
     
