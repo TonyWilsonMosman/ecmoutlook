@@ -12,6 +12,7 @@ And changing the folder path of when the emails should end up for QC. The origin
 
   
 
+# ECMoutlook v2.85 
 2.5 is a test variation of v2. It simplifies initial set up and needs testing before deployment. It has issues recognising the first user variable, users email account. It works if you manually replace it with the user email. 
 
   
