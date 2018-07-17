@@ -1,3 +1,8 @@
+# ECMoutlook v2.91 
+
+New code for changing email subject in Outlook. Use with QAP that has all it needs to register. (wish list, change "#NOREG" for auto-registration in outlook)
+
+
 # ECMoutlook v2.85 
 
 Minimising even more set up. 
@@ -6,13 +11,11 @@ Needs changing email addresses of the main account and of the IT support account
 
 And changing the folder path of when the emails should end up for QC. The original email ends up there. The copy send to ECM ends up in the users deleted folder 
 
-  
-
 -wish list a) adding all variable upfront for easy installation b) internet headers are not 100% complete, missing some IDs 
 
   
 
-# ECMoutlook v2.85 
+# ECMoutlook v2.5 
 2.5 is a test variation of v2. It simplifies initial set up and needs testing before deployment. It has issues recognising the first user variable, users email account. It works if you manually replace it with the user email. 
 
   
